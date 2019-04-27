@@ -1,0 +1,29 @@
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    background: #2db34a;
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+
+/* h3 {
+    position: relative;
+    padding: 20px 0;
+    margin-top: 20%;
+    margin-left: 42%;
+    font-size: 28px;
+    color: #eee;
+    text-align: left;
+}
+
+
+  .a {
+    background: #23a5a7;
+    text: turquoise;
+  } */
+
+  /* .box-1 {
+    top: 20px;
+    Hides element as if it's not there (compare with "display: hidden;").
+    display: none;
+    visibility: hidden;
+  } */
