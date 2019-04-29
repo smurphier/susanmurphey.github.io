@@ -1,0 +1,51 @@
+GitHubPages 11.2 (35min) environment -->
+Settings --> scroll down, set Source to master, refresh, see webpage
+xs	576	sm	768	md	992	lg	1200	xl
+
+keep id unique, define by class and tag
+z-index = layers 1, 2, 3
+justify-content		X: then Y (flex-direction: column)
+	START (default), END, BETWEEN, AROUND
+	start = upper left, END = lower right,
+align-self -- indiv items, Y-axis then X-axis (flex-direction:column)
+	start end center + baseline (top) + stretch (ALL space b/n, default)
+
+
+"ImagesSM/lat_vs_cloudy.png">Max Temperature
+"ImagesSM/lat_vs_humid.png">Humidity
+"ImagesSM/lat_vs_temp.png">Cloudiness
+"ImagesSM/lat_vs_windy.png">Wind Speed
+
+
+PlotsTemp.html
+PlotsHumid.html
+PlotsClouds.html
+PlotsWind.html
+
+
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#"></a>
+            <a class="dropdown-item" href="PlotsTemp.html">Max Temperature</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="PlotsHumid.html">Humidity</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="PlotsClouds.html">Cloudiness</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="PlotsWind.html">Wind Speed</a>
+
+Homepage.html
+Data.html
+Comparison.html
+PlotsTemp.html
+PlotsHumid.html
+PlotsClouds.html
+PlotsWind.html
+Data.html
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+JS links to include in body, IN ORDER: CDN versions of jquery, Popper, and then JS, in order to use Bootstrap's compiled versions.
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
