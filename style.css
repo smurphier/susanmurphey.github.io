@@ -1,3 +1,10 @@
+html {
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  min-height: 100%;
+}
 
 header { 
   display:block;
@@ -13,12 +20,10 @@ header {
 } */
 
 body {
-    background: lightgrey;
+  margin-top:
+  margin-bottom: 150px;
+  background-color: whitesmoke;
 }
-/* 
-footer {
-  overflow:auto;
-} */
 
 card {
   margin: 10px;
@@ -40,7 +45,7 @@ img {
 
 .img-thumbnail {
   min-width: 100px;
-  max-width: 200px;
+  max-width: 00px;
   height: auto;
 }
 
@@ -52,9 +57,6 @@ p {
   font-size: 18px;
 }
 
-/* .nav_item {
-  align: right;
-} */
 .responsive {
   width: 60%;
   min-width: 100px;
@@ -68,7 +70,10 @@ p {
   border-rounded: 5%;
 }
 
-.active {
+nav-item.active {
+  font-size: 18px;
+  padding: 5px;
+  text-align: bottom;
   background: lightseagreen;
   color: whitesmoke;
 }
@@ -77,9 +82,46 @@ p {
   background: lightseagreen;
   color: whitesmoke;
 }
+.img-set {
+  position: relative;
+  height: 400px;
+  background: darkgray;
+}
+img1 {
+  /* relative positioning */
+  position: relative;
+  width: 150px;
+  height: 150px;
+  /* margin: 10; */
+}
+.card-img2 {
+  top: 20px;
+  /* left: 0; */
+}
+.card-img3 {
+  left: 40px;
+}
+.card-img4 {
+  right: 20px;
+  bottom: 10px;
+}
 
 #boxshaded {
   border: 2px solid;
   padding: 10px;
   margin-left: 50px;
   box-shadow: 3px 4px lightseagreen;
+
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    background: rgb(56, 155, 145);
+  }
+  /* .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  } */

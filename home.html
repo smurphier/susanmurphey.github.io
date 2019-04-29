@@ -18,52 +18,44 @@
 </head>
 
 <body>
-  
-  <!--  Start of Navigation Bar  -->
-  <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-     
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand navbar_default a px-2" href="#">Murphey's Lawtitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-              <a class="nav-link w" href="Homepage.html">Home</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="Comparison.html">Comparison</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-              Weather Data Plots
-              </a>
-              <div class="dropdown-menu">
-              <a class="dropdown-item" href="PlotsTemp.html">Max Temperature</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="PlotsHumid.html">Humidity</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="PlotsClouds.html">Cloudiness</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="PlotsWind.html">Wind Speed</a>
-              </div>
-          </li>
-          <li class="nav-item">
-                  <a class="nav-link" href="Data.html">Data</a>
-          </li>
-          </ul>
-        </div>
-    </nav>   
-  </div>
 
-  <!--  Start of Summary on HomePage  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand navbar_default a px-2" href="#">Murphey's Lawtitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link w" href="Homepage.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Weather Data Plots
+            </a>
+            <div class="dropdown-menu">
+            <!-- <a class="dropdown-item" href="#"></a> -->
+            <a class="dropdown-item" href="PlotsTemp.html">Max Temperature</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="PlotsHumid.html">Humidity</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="PlotsClouds.html">Cloudiness</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="PlotsWind.html">Wind Speed</a>
+            </div>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data</a>
+        </li>
+        </ul>
+      </div>
+  </nav>   
+
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-8">
       <div class="card">
         <div class="card-body">
           <h3 class="card-title text-left">Summary:</h3>
@@ -80,23 +72,22 @@
         </div>
       </div>
     </div>
-
-    <!-- Start of Visualizations homepage Area -->
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="card">
         <div class="card-body">
           <h2 class="card-title text-left">Visualizations</h2>
           <hr>
-          <img src="ImagesSM/lat_vs_temp.png" class="img-thumbnail responsive float-start" alt="...">
-          <img src="ImagesSM/lat_vs_humid.png" class="img-thumbnail responsive float-next" alt="...">
-          <img src="ImagesSM/lat_vs_cloudy.png" class="img-thumbnail responsive float-next" alt="...">
-          <img src="ImagesSM/lat_vs_windy.png" class="img-thumbnail responsive float-end" alt="...">
+          <div class="img-set">
+            <img src="ImagesSM/lat_vs_temp.png" class="img-thumbnail responsive card-img1" alt="...">
+            <img src="ImagesSM/lat_vs_humid.png" class="img-thumbnail responsive card-img2" alt="...">
+            <img src="ImagesSM/lat_vs_cloudy.png" class="img-thumbnail responsive card-img3" alt="...">
+            <img src="ImagesSM/lat_vs_windy.png" class="img-thumbnail responsive card-img4" alt="...">
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  
   <footer class="page-footer footer-expand-lg footer-dark bg-dark">
     <hr style="height:10px" color=lightseagreen>
     <div class="text-center py-2" style="color:whitesmoke">© Copyright Susan Murphey 2019</div>

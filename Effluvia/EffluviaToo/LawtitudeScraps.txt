@@ -11,6 +11,8 @@ align-self -- indiv items, Y-axis then X-axis (flex-direction:column)
 	start end center + baseline (top) + stretch (ALL space b/n, default)
 
 
+https://smurphier.github.io/susanmurphey.github.io/
+
 "ImagesSM/lat_vs_cloudy.png">Max Temperature
 "ImagesSM/lat_vs_humid.png">Humidity
 "ImagesSM/lat_vs_temp.png">Cloudiness
