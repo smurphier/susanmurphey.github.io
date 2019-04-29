@@ -1,29 +1,85 @@
 
-.navbar-default .navbar-nav > .dropdown > a .caret {
-    background: #2db34a;
-    border-top-color: #777;
-    border-bottom-color: #777;
+header { 
+  display:block;
+  overflow:auto;
+  font-family: "Times New Roman", Times, serif;
+  background: whitesmoke;
 }
 
-/* h3 {
-    position: relative;
-    padding: 20px 0;
-    margin-top: 20%;
-    margin-left: 42%;
-    font-size: 28px;
-    color: #eee;
-    text-align: left;
+/* div {
+  border: 5px;
+  padding: 5px;
+
+} */
+
+body {
+    background: lightgrey;
+}
+/* 
+footer {
+  overflow:auto;
+} */
+
+card {
+  margin: 10px;
 }
 
+h3 {
+  margin: 5px;
+  color: lightseagreen;
+}
 
-  .a {
-    background: #23a5a7;
-    text: turquoise;
-  } */
+h2 {
+padding: 10px;
+color: lightseagreen;
+}
 
-  /* .box-1 {
-    top: 20px;
-    Hides element as if it's not there (compare with "display: hidden;").
-    display: none;
-    visibility: hidden;
-  } */
+img {
+  float: left;
+}
+
+.img-thumbnail {
+  min-width: 100px;
+  max-width: 200px;
+  height: auto;
+}
+
+card_title {
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* .nav_item {
+  align: right;
+} */
+.responsive {
+  width: 60%;
+  min-width: 100px;
+  max-width: 400px;
+  height: auto;
+}
+
+.a {
+  background: lightseagreen;
+  background-size: cover;
+  border-rounded: 5%;
+}
+
+.active {
+  background: lightseagreen;
+  color: whitesmoke;
+}
+
+.w {
+  background: lightseagreen;
+  color: whitesmoke;
+}
+
+#boxshaded {
+  border: 2px solid;
+  padding: 10px;
+  margin-left: 50px;
+  box-shadow: 3px 4px lightseagreen;
