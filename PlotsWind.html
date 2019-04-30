@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<style> 
+    * {
+      font-family: "Times New Roman", Times, serif;
+}
+</style>
 <head>
   <meta charset="UTF-8">
   <title>MurWind</title>
@@ -12,202 +16,83 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+  
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Lawtitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-            Weather Data Plots
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"></a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="jumbotron">
-      <h1 class="display-4">Jumbotron!</h1>
-      <p class="lead">This is placed inside a container</p>
-      <hr class="my-4">
-      <p>Here we can display some more text!</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
-  </div>
-
-<div class="container">
-  <h3 class="text-center">Thumbnails</h3>
-    <div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="..." class="img-thumbnail">
-          </div>
-          <div class="caption">
-              <h3>Thumbnail label</h3>
-              <p>...</p>
-              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="..." class="img-thumbnail">
-            </div>
-          <div class="caption">
-              <h3>Thumbnail label</h3>
-              <p>...</p>
-              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-          </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-          </div>
-        </div>
-    </div>
-
-  <div class="row">
-    <div class="col">
-        <h3 class="text-center">List Groups</h3>
-        <ul class="list-group">
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-              Cras justo odio <span class="badge badge-pill badge-secondary">10</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-              Cras justo odio <span class="badge badge-pill badge-secondary">3</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-              Cras justo odio <span class="badge badge-pill badge-secondary">4</span>
-          </li>
-        </ul>
-    </div>
-  </div>
-
-
-    <div class="row">
-      <div class="col">
-        <h3 class="text-center">Cards</h3>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-    </div>
-
-
-  <div class="row">
-    <div class="col">
-      <h3 class="text-center">Nav Tabs</h3>
-      <ul class="nav nav-tabs">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand navbar_default a px-2" href="#">Murphey's Lawtitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link w" href="Homepage.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="Comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Weather Data Plots</a>
+            <div class="dropdown-menu">
+              <!-- <a class="dropdown-item" href="#"></a> -->
+              <a class="dropdown-item" href="PlotsTemp.html">Max Temperature</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="PlotsHumid.html">Humidity</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="PlotsClouds.html">Cloudiness</a>
+              <div class="dropdown-divider active"></div>
+              <a class="dropdown-item" href="PlotsWind.html">Wind Speed</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="Data.html">Data</a>
           </li>
         </ul>
       </div>
-  </div>
+  </nav>   
 
-    <div class="row">
-      <div class="col">
-        <h3 class="text-center">Nav Pills</h3>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title text-left">Windiness</h3>
+          <hr>
+          <p class="card-text"><img src="ImagesSM/lat_vs_windy.png" class="responsive float-left" alt="...">
+            WIND SPEED: Winds are known to pick up through the middle of the day as sun increases 
+            the thermal energy of the atmosphere, stirring up choppy waters for boating and airplane turbulence; 
+            this calms as the sun sets, if not confounded by other factors.
+            <br>3/22/19 saw clear skies and calm waters locally, and wind speeds reflect this trend across the 
+            3 sessions of API data retrieval, showing a wider range of wind speeds in the afternoon that calm after sunset.
+            <br>There are outlier cities with high wind speeds at Lat +40-70˚. 
+            <br>Unclear significance without considering confounding weather factors (with larger influence than the 
+            associations of latitude) in those areas during this period, OR without DATA COLLECTION OVER TIME, 
+            with each occurrence of (date/time/10minutes) collection being a sample element in a larger data set. 
+            Means over days or years would likely provide more generalizable trends.</p>
         </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col">
-        <h3 class="text-center">Alerts</h3>
-        <div class="alert alert-primary" role="alert">
-            Info Alert
-          </div>
-          <div class="alert alert-success" role="alert">
-            Success Alert
-          </div>
-          <div class="alert alert-danger" role="alert">
-            Danger Alert
-          </div>
-          <div class="alert alert-warning" role="alert">
-            Warning Alert
-          </div>
-        </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col">
-        <h3 class="text-center">Progress Bar</h3>
-          <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 50%">
-                50%
-              </div>
-          </div>
       </div>
     </div>
-
-    <h3 class="text-center">Buttons</h3>
-    <div class="row">
-
-      <button type="button" class="btn btn-default">Default Button</button>
-      <button type="button" class="btn btn-primary">Primary Button</button>
-      <button type="button" class="btn btn-danger">Danger Button</button>
-      <button type="button" class="btn btn-info">Info Button</button>
-      <button type="button" class="btn btn-warning">Warning Button</button>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title text-left">Visualizations</h2>
+          <hr>
+          <div class="img-set">
+            <img src="ImagesSM/lat_vs_temp.png" class="img-thumbnail responsive card-img1" alt="...">
+            <img src="ImagesSM/lat_vs_humid.png" class="img-thumbnail responsive card-img2" alt="...">
+            <img src="ImagesSM/lat_vs_cloudy.png" class="img-thumbnail responsive card-img4" alt="...">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-</body>
+
+    <footer class="page-footer footer-expand-lg footer-dark bg-dark">
+        <hr style="height:10px" color=lightseagreen>
+        <div class="text-center py-2" style="color:whitesmoke">© Copyright Susan Murphey 2019</div>
+      </footer> 
+    
+    </body> 
 
 </html>

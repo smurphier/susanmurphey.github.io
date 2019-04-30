@@ -26,7 +26,7 @@ body {
 }
 
 card {
-  margin: 10px;
+  margin: 30px;
 }
 
 h3 {
@@ -83,27 +83,25 @@ nav-item.active {
   color: whitesmoke;
 }
 .img-set {
-  position: relative;
+  width: 400px;
   height: 400px;
-  background: darkgray;
 }
-img1 {
-  /* relative positioning */
-  position: relative;
-  width: 150px;
-  height: 150px;
-  /* margin: 10; */
+.card-img1 {
+  float: start;
+  margin: 10;
 }
 .card-img2 {
-  top: 20px;
-  /* left: 0; */
+  right: 100%;
+  margin: 10;
 }
 .card-img3 {
-  left: 40px;
+  left: 100%
+  margin: 10;
 }
 .card-img4 {
-  right: 20px;
-  bottom: 10px;
+  float: end;
+  /* right: 20px;
+  bottom: 20px; */
 }
 
 #boxshaded {
