@@ -1,7 +1,6 @@
 html {
   /* Positioning */
   position: relative;
-
   /* Box-model */
   min-height: 100%;
 }
@@ -29,15 +28,18 @@ card {
   margin: 30px;
 }
 
-h3 {
-  margin: 5px;
-  color: lightseagreen;
-}
-
 h2 {
 padding: 10px;
 color: lightseagreen;
 }
+h3 {
+  margin: 5px;
+  color: lightseagreen;
+}
+h5 {
+  padding: 5px;
+  color: lightseagreen;
+  }
 
 img {
   float: left;
@@ -104,12 +106,22 @@ nav-item.active {
   bottom: 20px; */
 }
 
-#boxshaded {
+/* #boxshaded {
   border: 2px solid;
   padding: 10px;
   margin-left: 50px;
   box-shadow: 3px 4px lightseagreen;
+} */
 
+div.figure {
+  display: table;
+  /* padding-top: 0; */
+}
+div.figure p + p {
+  /* padding: 0.5em;
+  border: none; */
+  display: table-caption;
+  caption-side: top;
 }
 
 @media (max-width: 576px) {
